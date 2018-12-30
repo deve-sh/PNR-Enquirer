@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PNR Enquirer</title>
+	<link href="https://fonts.googleapis.com/css?family=Niramit|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="./ultrasmall.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+<div id='searcher'>
+	<span class="enquirer">PNR Enquirer&nbsp</span> : &nbsp&nbsp<input type="number" min='100000000' id='pnrnumber' placeholder="Enter Your PNR" title='PNR' required/> &nbsp&nbsp<button onclick="print(document.getElementById('pnrnumber').value)" type="submit">FIND</button>
+</div>
+<div id='main'>
+</div>
+<div id='second'><div id="map"></div></div>
+	<script type="text/javascript" src='scripts.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap"
+        async defer></script>
+</body>
+</html>
+<!-- BUILT BY DEVESH KUMAR -->

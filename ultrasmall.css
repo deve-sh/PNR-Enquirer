@@ -1,0 +1,22 @@
+.top .left{
+	width: 70%;
+}
+
+.top .right{
+	width: 30%;
+}
+
+.reservationtable{
+	overflow: auto;
+}
+
+.pnrcard{
+	overflow: auto;
+}
+
+.enquirer{
+	float: none;
+	clear: both;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
